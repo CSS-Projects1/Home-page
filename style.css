@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+}
+
+.container {
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    /* background-color: #3E9C87; */
+    padding: 0 10%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #3E9C87;
+    font-weight: normal;
+  
+}
+p{
+    color: #545454;
+
+}
+header {
+    height: 405px;
+    position: relative;
+    padding: 30px 0;
+    text-align: center;
+    background-color: #e0ebe8;
+
+}
+
+.caoud1 {
+    position: absolute;
+    right: 20%;
+    top: 15%;
+}
+
+.caoud2 {
+    position: absolute;
+    left: 20%;
+    top: 26%;
+}
+
+header h1 {
+    font-family: "Brush Script MT", cursive;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+header h3 {
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    padding-bottom: 40px;
+}
+
+section {
+    margin: 60px 0;
+}
+
+ .line {
+    background-image: url("https://web.archive.org/web/20181117030815im_/http://seanhalpin.io/assets/img/ui/line-bg.png");
+    width: 5%;
+    height: 6px;
+    margin: 20px auto;
+}
+
+.about img,
+.work img,
+.help img {
+    width: 20%;
+
+}
+
+.about h2 {
+    margin: 25px 0;
+    font-size: 28px;
+}
+
+.about p {
+    width: 35%;
+    margin: 0 auto;
+    font-size: 21px;
+    line-height: 1.6;
+    opacity: 0.7;
+}
+
+.work h1 {
+    font-size: 53px;
+}
+
+.work .box1 {
+    overflow: hidden;
+    padding: 20px 10px;
+}
+
+.work .box1 img {
+    float: left;
+    margin-left: 10%;
+}
+
+.work .box1 h2,
+.p {
+    text-align: start;
+    float: right;
+    line-height: 1.6;
+    margin-right: 10%;
+    width: 48%;
+
+}
+
+.work .box1 p {
+    font-size: 21px;
+    margin-top: 20px;
+}
+
+.work .box2{
+    overflow: hidden;
+    padding: 20px 10px;
+}
+
+.work .box2 img {
+    float: right;
+    margin-right: 10%;
+}
+
+.work .box2 h2,
+.p {
+    text-align: start;
+    float: right;
+    line-height: 1.6;
+    margin-right: 10%;
+    width: 48%;
+
+}
+
+.work .box2 p {
+    font-size: 21px;
+    margin-top: 20px;
+}
+
+.help h1{
+    font-size: 53px;
+}
+.help h3{
+    margin: 35px 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+.help p{
+    font-size: 21px;
+    width: 70%;
+    margin: 0 auto;
+}
+.help button{
+    padding: 15px 30px;
+    background-color: #3E9C87;
+   border: none;
+   outline: none;
+   color: #296a52;
+   margin-top: 40px;
+   padding-left: 5%;
+   font-size: 18px;
+   text-transform: uppercase;
+   border-radius: 5px;
+   position: relative;
+}
+.help button:hover{
+    background-color: #4fab8a;
+    cursor: pointer;
+}
+.help i{
+    background-image: url("https://web.archive.org/web/20181116222206im_/http://seanhalpin.io/assets/img/content/home/contact/mail.png");
+    position: absolute;
+    position: absolute;
+    height: 15px;
+    width: 24px;
+    left: 5%;
+    top: 33%;
+}
+
+footer{
+    background-color: #C5DED7;
+    padding: 10px 20px;
+    text-align: center;
+}
+footer ul{
+    display:inline-block ;  
+}
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 50px 80px ;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #3EA08A;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+
+}
+footer p,a{
+    color: #296a52;
+    padding: 10px 0;
+}
